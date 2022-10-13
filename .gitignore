@@ -1,0 +1,9 @@
+
+android/.gradle/*
+android/.idea/*
+android/app/.cxx/*
+android/app/build/*
+ios/Pods/*
+node_modules/*
+vendor/bundle/ruby/*
+ios/build/generated/*
