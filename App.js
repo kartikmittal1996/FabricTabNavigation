@@ -19,6 +19,7 @@ import {
   Colors
 } from 'react-native/Libraries/NewAppScreen';
 import HomeScreen from './HomeScreen';
+import HomeScreen1 from './HomeScreen1';
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
  * LTI update could not be added via codemod */
@@ -42,7 +43,7 @@ const App: () => Node = () => {
       <NavigationContainer>
         <Tab.Navigator>
           <Tab.Screen name="Home" component={HomeScreen} />
-          <Tab.Screen name="Settings" component={HomeScreen} />
+          <Tab.Screen name="Settings" component={HomeScreen1} />
         </Tab.Navigator>
       </NavigationContainer>
     </SafeAreaView>
